@@ -1,0 +1,125 @@
+/*-----------CSS-reset------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*-----------CSS-reset------------*/
+
+body {
+    background-color: #F2F3D9;
+    font-family: Arial, sans-serif;
+}
+
+----- mijn versie staat hieronder --- de versie van Elwyn, staat onder mijn versie ----------------
+    /*.header {*/
+    /*    width: 100%;*/
+    /*    color: #F2F3D9;*/
+    /*    display: flex;*/
+    /*    flex-direction: row-reverse;*/
+    /*    justify-content: space-between;*/
+    /*    align-items: center;*/
+    /*    flex-shrink: 1;*/
+    /*    margin: 40px;*/
+    /*}*/
+    /*.navigation {*/
+    /*    width: 500px;*/
+    /*    background-color: red;*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    justify-content: space-evenly;*/
+    /*    list-style-type: none;*/
+    /*    flex-shrink: 2;*/
+    /*}*/
+    /*h2 {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    justify-content: flex-start;*/
+    /*}*/
+--------------------------------------------------------------------------------------------------------
+hier volgt de code waarvan ik tijdens online college de uitwerking van Elwyn gezien heb, dit is de betere
+variant, en de credits zijn dan ook voor Elwyn niet voor mij helaas :
+
+
+.header {
+
+}
+
+.header__nav {
+    justify-content: space-between;
+    background-color: #030027;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 40px;
+    padding-block: 40px;
+}
+
+.header__logo {
+    color: #F2F3D9;
+    text-decoration: none;
+}
+
+.header__list {
+    display: flex;
+    flex-basis: 600px;
+    justify-content: space-evenly;
+
+}
+
+.header__item {
+    list-style-type: none;
+}
+
+.header__item a {
+    color: #F2F3D9;
+    text-decoration: none;
+}
+
+--------------------------------------------------------------------------------------------------------
+------- hieronder volgt weer mijn code ----------------------------
+.chapters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.article-businessdata {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    padding: 20px;
+    flex-shrink: 1;
+}
+
+.businessdata-intro {
+    background-color: #C16E70;
+    height: 350px;
+    text-align: center;
+    padding: 20px;
+    flex-basis: 280px;
+    display: flex;
+    align-items: flex-end;
+}
